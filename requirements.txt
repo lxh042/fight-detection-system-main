@@ -1,0 +1,12 @@
+streamlit
+opencv-python
+numpy
+torch
+onnx
+onnxruntime
+matplotlib
+scikit-learn
+ultralytics
+Pillow
+mindspore
+tqdm

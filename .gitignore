@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# CMake and native build outputs
+**/build/
+**/build-*/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+
+# Visual Studio generated files
+**/*.sln
+**/*.vcxproj
+**/*.vcxproj.filters
+**/*.recipe
+**/*.tlog
+**/*.lastbuildstate
+**/*.obj
+**/*.o
+**/*.exe
+**/*.exp
+**/*.lib
+
+# Logs and one-off debug files
+*.log
+*.bak
+
+# Redundant deployment packaging
+deploy_bundle_orangepi/
+deploy/deploy_bundle_orangepi.zip
+
+# Editor settings
+.vscode/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Datasets and generated caches
+data/
+preprocessed/
+models/training/preprocessed/
+
+# Local outputs
+artifacts/
+deploy/artifacts/
+
+# Vendored runtime packages
+cpp_demo/third_party/
+deploy/third_party/
